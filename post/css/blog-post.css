@@ -1,0 +1,53 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background: url('https://wallpaperaccess.com/full/1571.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*.card-header{
+	background: url('https://wallpapersite.com/images/wallpapers/earth-2880x2560-above-space-hd-6408.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+
+.my-4, .card-header, #tags{
+	color: white;
+}
+
+#card-modified{
+	background: rgb(0, 0, 0, 0.3); /* Fallback color */
+	background: rgba(0, 0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+	color: #f1f1f1; /* Grey text */
+	width: 100%; /* Full width */
+	padding: 20px; /* Some padding */
+	border: none;
+}
+
+.form-horizontal{
+  margin: 193px 0;
+  min-height: 20px;
+  min-width: 400px;
+  z-index: 80;
+  top: 90px;
+  right: 100px;
+  /*background: rgba(0, 0, 0, 0.6);*/
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.form-horizontal label {
+    color: #fff;
+}
